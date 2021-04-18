@@ -1,0 +1,25 @@
+.badge {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  left: 15px;
+  bottom: 15px;
+}
+.fa-cog {
+  position: relative;
+}
+.badge-icon {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
