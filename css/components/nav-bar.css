@@ -14,11 +14,25 @@
 .nav__link {
   color: #2e363e;
   position: relative;
+
 }
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(0.1);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav__notification {
   position: absolute;
   left: 15px;
   bottom: 15px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 .nav__ellipsis__noti {
   background-color: tomato;
@@ -28,4 +42,15 @@
   display: flex;
   position: absolute;
   left: 30px;
+}
+@keyframes apperBtnAnimation{
+  from{
+
+  }
+  to{
+    
+  }
+}
+.nav__btn{
+
 }
